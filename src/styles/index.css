@@ -1,6 +1,50 @@
+body {
+    color: rgb(249, 249, 249);
+    display: flex;
+    justify-content: center;
+}
+.tittle {
+    color: rgb(238, 215, 216);
+    font-size: 100px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
 
+.bigBox{
+    width: 800px;
+    box-shadow: 10px 10px 10px 10px grey;
+}
+
+.box {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    color: black;
+}
+.doIt span{
+display: none;
+}
+.doIt:hover span{
+display: flex;
+}
+input{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    color: rgb(1, 1, 24);
+}
+
+.counter {
+    border-bottom: 1px solid black;
+    color: rgb(205, 200, 200);
+}
+.button {
+    margin: 4px;
+    background-color: rgb(238, 215, 216);
+    border: solid 1px black;
+}
 /* 
-
     You can write your own styles here...
     
     
@@ -8,5 +52,4 @@
     other sylesheets into your bunde as well, e.j:
     
     import 'relative/path/to/stylesheet.scss';
-
 */
